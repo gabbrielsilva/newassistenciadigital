@@ -1,0 +1,59 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerservicos {
+    position: relative;
+    display: flex;
+    width: 700px;
+    z-index: 2;
+}
+
+/* Fundo desfocado */
+.backgroundBlur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #E4E7EA, #C4C4C4);
+    /* Cor do fundo */
+    filter: blur(10px);
+    /* Desfoque */
+    z-index: 1;
+    /* Fica atrás dos cards */
+    border-radius: 16px;
+    /* Bordas arredondadas */
+}
+
+.containercards {
+    position: relative;
+    z-index: 2;
+    /* Fica acima do fundo desfocado */
+    width: 403px;
+    height: 428px;
+    margin-right: 10px;
+    
+}
+
+.containercards .titulo{    
+    display: flex;
+}
+
+.containercards .descricao {
+    display: flex;
+    
+}
+
+.containercards div {
+    width: 373px;
+    height: 232px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

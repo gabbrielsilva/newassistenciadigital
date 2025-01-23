@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.container {
+
+    margin: 6rem 12rem;
+    text-align: left;
+    display: flex;
+    background: linear-gradient(135deg, #FFFFFF, #E4E7EA);
+    /* Mesmo gradiente */
+    z-index: -1;
+    /* Certifica que o fundo está atrás dos cards */
+    border-radius: 16px;
+    height: 820px;
+
+
+
+}
+
+
+.cards {
+    width: 247.75px;
+    height: 300px;
+    margin-left: 1rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 35px 30px 65px 39px;
+    margin-bottom: 2rem;
+
+}
+
+.cards .icone {
+    animation: bounce 1.5s infinite;
+}
+
+.cards a {
+    display: flex;
+
+}
+
+.cards .textTitulo {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #030626;
+    box-shadow: none;
+    text-decoration: none;
+    line-height: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.textSubTitulo {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    box-shadow: none;
+    text-decoration: none;
+    color: #252b31;
+    line-height: 24px;
+}
+
+.textSubTitulo:hover {
+    color: #2314f7;
+    transition: 0.7s;
+}
+
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Posição inicial e final */
+    }
+
+    50% {
+        transform: translateY(-15px);
+        /* Movimento para cima */
+    }
+}
+
+.containertext {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: #FFFFFF;
+}
+
+.containertext h5 {
+    font-size: 21px;
+    color: #8582A2;
+    font-family: "Nunito", Sans-serif;
+    font-weight: 14px;
+
+}
+
+.containertext h2 {
+    color: rgb(3, 12, 38);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.containertext p {
+    color: rgb(105, 102, 135);
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.ckeck {
+    display: flex;
+    align-items: center;
+    
+}
+
+.cardscheck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 7rem;
+    margin-top: 1rem;
+}
+
+.ckeck span {
+    align-items: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-weight: 18px;
+    color: #030626;
+    width: 100%;
+}

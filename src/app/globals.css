@@ -3,5 +3,7 @@ body {
     padding: 2rem;
     font-family: Rubik, sans-serif;
     background: rgb(255, 255, 255);
-    background-image: url('./../img/home12_bg.jpg');
+    background-image: url('./../img/home12_bg.jpg'); 
+    background-repeat: no-repeat;
 }
+
